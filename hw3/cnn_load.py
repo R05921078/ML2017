@@ -156,7 +156,7 @@ def plot_procedure(hist):
 # score = model.evaluate(xTrain,yTrain)
 # print ('\nTrain Acc:', score[1])
 
-model = load_model('./cnn.h5')
+model = load_model('./save_cnn.h5')
 #plot_procedure(hist)
 #saving_csv(xTest, 'res')
 saving_csv(xTest_w)
