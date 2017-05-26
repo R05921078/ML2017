@@ -1,2 +1,2 @@
 #!/bin/bash
-python load_bow.py $1 $2
+python3.5 load_bow.py $1 $2
